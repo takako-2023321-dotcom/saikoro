@@ -8,5 +8,15 @@
   </head>
   <body style="margin:0; padding:0;">
     <model-viewer src="saikoro.glb" ios-src="https://nagao-chinami.github.io/saikoro/saikoro.usdz"
+      alt="saikoro 3D"
+      ar
+      ar-mode="webxr scene-viewer quick-look"
+      auto-rotate
+      camera-controls
+      style="width:100vw;height:100vh;"
+      scale="1"
+      camera-target="0m 0m 0m">
+      <button slot="ar-button">ARで表示</button>
+      </model-viewer>
   </body>
 </html>
